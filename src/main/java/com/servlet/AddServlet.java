@@ -29,6 +29,7 @@ public class AddServlet extends HttpServlet {
 		// passing values from one servlet to another servlet with URL Rewriting.
 		// res.sendRedirect("sq?k=" + k);
 
+		
 		// passing values to second servlet with the use of session.
 		HttpSession session = req.getSession();
 		session.setAttribute("k", k);
